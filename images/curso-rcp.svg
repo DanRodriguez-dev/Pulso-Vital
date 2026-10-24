@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <rect width="600" height="450" fill="#fbe9e7"/>
+  <rect y="330" width="600" height="120" fill="#f3d3cf"/>
+  <!-- camilla / suelo -->
+  <rect x="70" y="300" width="460" height="30" rx="10" fill="#14213d"/>
+  <!-- maniquí torso -->
+  <path d="M130 300 C130 230 190 200 300 200 C410 200 470 230 470 300 Z" fill="#e9c9a8"/>
+  <ellipse cx="150" cy="268" rx="46" ry="38" fill="#e9c9a8"/>
+  <circle cx="108" cy="262" r="30" fill="#ddb892"/>
+  <!-- pecho marca -->
+  <circle cx="300" cy="240" r="16" fill="none" stroke="#b3202a" stroke-width="4" stroke-dasharray="6 5"/>
+  <!-- manos -->
+  <g>
+    <rect x="270" y="130" width="60" height="70" rx="22" fill="#f0c9a4"/>
+    <rect x="285" y="104" width="30" height="40" rx="14" fill="#f0c9a4"/>
+    <rect x="262" y="70" width="76" height="46" rx="20" fill="#14213d"/>
+  </g>
+  <!-- flechas compresión -->
+  <path d="M390 120v70M390 190l-14-16M390 190l14-16" stroke="#b3202a" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M210 190v-70M210 120l-14 16M210 120l14 16" stroke="#b3202a" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- ECG -->
+  <path d="M40 395h120l24-48 36 90 28-60 14 18h298" fill="none" stroke="#b3202a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- DEA -->
+  <rect x="470" y="340" width="90" height="70" rx="12" fill="#fff" stroke="#14213d" stroke-width="4"/>
+  <path d="M515 352l-14 22h12l-6 24 20-28h-12l8-18z" fill="#b3202a"/>
+</svg>

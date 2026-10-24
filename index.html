@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pulso Vital · Tienda en línea</title>
+  <meta name="description" content="Pulso Vital: formación, equipamiento y servicios en emergencias médicas. Cursos de RCP, botiquines, talleres, planes de riesgo y cobertura médica para eventos.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a href="#inicio" class="brand" aria-label="Pulso Vital, inicio">
+        <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+          <circle cx="20" cy="20" r="19" fill="#b3202a"/>
+          <path d="M4 21h9l3-8 5 16 4-11 2 3h9" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span>Pulso Vital</span>
+      </a>
+      <nav class="nav" aria-label="Principal">
+        <a href="#productos">Servicios</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <button class="cart-btn" id="openCart" aria-label="Abrir carrito">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 4h2l2.4 11.2a1 1 0 0 0 1 .8h8.9a1 1 0 0 0 1-.8L20 8H6.2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9.5" cy="20" r="1.4" fill="currentColor"/><circle cx="17" cy="20" r="1.4" fill="currentColor"/></svg>
+        <span>Carrito</span>
+        <span class="badge" id="cartCount">0</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="wrap hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">Soluciones en Emergencias y Salud</p>
+          <h1>Los primeros minutos salvan vidas.</h1>
+          <p class="lead">Formación, equipamiento y servicios en emergencias médicas para personas, familias, escuelas y empresas en República Dominicana.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#productos">Ver servicios</a>
+            <a class="btn btn-ghost" href="#contacto">Hablar con nosotros</a>
+          </div>
+        </div>
+        <svg class="hero-art" viewBox="0 0 420 300" aria-hidden="true">
+          <rect x="0" y="0" width="420" height="300" rx="28" fill="#fbe9e7"/>
+          <path d="M0 170h110l30-70 48 150 36-100 20 30h176" fill="none" stroke="#b3202a" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="330" cy="70" r="34" fill="#b3202a"/>
+          <path d="M330 52v36M312 70h36" stroke="#fff" stroke-width="9" stroke-linecap="round"/>
+        </svg>
+      </div>
+    </section>
+
+    <section class="section" id="productos">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Nuestra tienda</p>
+          <h2>Cinco servicios, a tu medida</h2>
+          <p>Elige las opciones de cada servicio y agrégalo al carrito. Tu precio se ajusta al instante.</p>
+        </div>
+        <div class="grid" id="productGrid"></div>
+      </div>
+    </section>
+
+    <section class="section alt" id="nosotros">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">¿Quiénes somos?</p>
+          <h2>Preparamos a la comunidad para actuar</h2>
+          <p>Pulso Vital se dedica a la formación, el equipamiento y los servicios en emergencias médicas para personas, familias, escuelas y empresas. Nuestro equipo trabaja con profesionales de la medicina de emergencias y la gestión de riesgos, con el propósito de que más personas sepan actuar con seguridad ante una urgencia.</p>
+        </div>
+        <div class="cards-3">
+          <article class="info-card">
+            <h3>Misión</h3>
+            <p>Capacitar y equipar a la comunidad y a las organizaciones para responder de forma oportuna y eficaz ante emergencias médicas y desastres, contribuyendo a salvar vidas.</p>
+          </article>
+          <article class="info-card">
+            <h3>Visión</h3>
+            <p>Ser la empresa de referencia en República Dominicana en formación en soporte vital y preparación ante emergencias, reconocida por su calidad, cercanía y compromiso social.</p>
+          </article>
+          <article class="info-card">
+            <h3>Valores</h3>
+            <ul>
+              <li><strong>Vocación de servicio:</strong> la vida y la seguridad primero.</li>
+              <li><strong>Excelencia:</strong> guías y evidencia actualizadas.</li>
+              <li><strong>Prevención:</strong> preparamos antes de la emergencia.</li>
+              <li><strong>Ética y respeto:</strong> dignidad para cada persona.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contacto">
+      <div class="wrap contact">
+        <div>
+          <p class="eyebrow">Contacto</p>
+          <h2>Estamos para ayudarte</h2>
+          <dl class="contact-list">
+            <dt>Dirección</dt><dd>C/ Olof Palme #47, sector Viejo Ahorro Hondo, Santo Domingo, 10510 </dd>
+            <dt>Teléfono</dt><dd><a href="tel:+18095193625">809-519-3625</a></dd>
+            <dt>Correo electrónico</dt><dd><a href="mailto:puntovital@gmail.com">puntovital@gmail.com</a></dd>
+            <dt>Redes sociales</dt><dd>@puntovital.com / @puntovital.net</dd>
+            <dt>Horario</dt><dd>Lunes a viernes de 9:00 a. m. a 5:00 p. m.<br>Sábado de 9:00 a. m. a 12:00 m.</dd>
+          </dl>
+        </div>
+        <form class="contact-form" id="contactForm" novalidate>
+          <h3>Envíanos un mensaje</h3>
+          <label>Nombre<input type="text" name="nombre" required autocomplete="name"></label>
+          <label>Correo electrónico<input type="email" name="correo" required autocomplete="email"></label>
+          <label>Mensaje<textarea name="mensaje" rows="4" required></textarea></label>
+          <button class="btn btn-primary" type="submit">Enviar mensaje</button>
+          <p class="form-note" id="contactNote" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p><strong>Pulso Vital</strong> · Soluciones en Emergencias y Salud</p>
+      <p class="small">Porque los primeros minutos salvan vidas.</p>
+    </div>
+  </footer>
+
+  <!-- Carrito -->
+  <div class="overlay" id="overlay" hidden></div>
+  <aside class="drawer" id="cartDrawer" aria-label="Carrito de compras" aria-hidden="true">
+    <div class="drawer-head">
+      <h2>Tu carrito</h2>
+      <button class="icon-btn" id="closeCart" aria-label="Cerrar carrito">&times;</button>
+    </div>
+    <div class="drawer-body" id="cartItems"></div>
+    <div class="drawer-foot">
+      <div class="total-row"><span>Total</span><strong id="cartTotal">RD$ 0</strong></div>
+      <button class="btn btn-primary btn-block" id="checkoutBtn">Finalizar compra</button>
+      <button class="link-btn" id="clearCart">Vaciar carrito</button>
+    </div>
+  </aside>
+
+  <!-- Checkout -->
+  <div class="modal" id="checkoutModal" role="dialog" aria-modal="true" aria-labelledby="checkoutTitle" hidden>
+    <div class="modal-card">
+      <button class="icon-btn modal-close" id="closeCheckout" aria-label="Cerrar">&times;</button>
+      <div id="checkoutStep">
+        <h2 id="checkoutTitle">Finalizar compra</h2>
+        <form id="checkoutForm" novalidate>
+          <label>Nombre completo<input type="text" name="nombre" required autocomplete="name"></label>
+          <label>Teléfono<input type="tel" name="telefono" required autocomplete="tel" placeholder="809-000-0000"></label>
+          <label>Correo electrónico<input type="email" name="correo" required autocomplete="email"></label>
+          <label>Dirección o institución (opcional)<input type="text" name="direccion" autocomplete="street-address"></label>
+          <label>Método de pago
+            <select name="pago" required>
+              <option value="Transferencia bancaria">Transferencia bancaria</option>
+              <option value="Pago contra entrega / en sede">Pago contra entrega / en sede</option>
+              <option value="Tarjeta (enlace de pago)">Tarjeta (enlace de pago)</option>
+            </select>
+          </label>
+          <label>Notas (fecha deseada, aclaraciones)<textarea name="notas" rows="3"></textarea></label>
+          <div class="summary" id="checkoutSummary"></div>
+          <p class="form-note error" id="checkoutError" role="alert"></p>
+          <button class="btn btn-primary btn-block" type="submit">Confirmar pedido</button>
+        </form>
+      </div>
+      <div id="confirmStep" hidden>
+        <div class="check">✓</div>
+        <h2>¡Pedido recibido!</h2>
+        <p>Tu número de pedido es <strong id="orderNumber"></strong>. Un asesor de Pulso Vital te contactará para coordinar el pago y la fecha.</p>
+        <div class="summary" id="confirmSummary"></div>
+        <button class="btn btn-primary btn-block" id="newOrder">Volver a la tienda</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

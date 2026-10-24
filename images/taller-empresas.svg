@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <rect width="600" height="450" fill="#eaf3ee"/>
+  <rect y="340" width="600" height="110" fill="#d4e6dc"/>
+  <!-- pizarra -->
+  <rect x="150" y="40" width="300" height="130" rx="10" fill="#fff" stroke="#14213d" stroke-width="5"/>
+  <circle cx="230" cy="105" r="30" fill="#b3202a"/>
+  <path d="M230 88v34M213 105h34" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
+  <path d="M290 80h120M290 105h90M290 130h110" stroke="#9aa6b8" stroke-width="7" stroke-linecap="round"/>
+  <!-- instructor -->
+  <circle cx="300" cy="215" r="26" fill="#e0b894"/>
+  <path d="M255 340c0-60 20-92 45-92s45 32 45 92z" fill="#14213d"/>
+  <!-- brazo vendado -->
+  <rect x="345" y="270" width="110" height="30" rx="15" fill="#e0b894" transform="rotate(-12 345 270)"/>
+  <rect x="395" y="252" width="34" height="34" rx="6" fill="#f6f1ea" stroke="#b3202a" stroke-width="3" transform="rotate(-12 412 269)"/>
+  <!-- participantes -->
+  <g>
+    <circle cx="110" cy="270" r="22" fill="#c9966f"/>
+    <path d="M72 345c0-44 15-66 38-66s38 22 38 66z" fill="#b3202a"/>
+    <circle cx="500" cy="270" r="22" fill="#f0c9a4"/>
+    <path d="M462 345c0-44 15-66 38-66s38 22 38 66z" fill="#3a6ea5"/>
+    <circle cx="190" cy="290" r="20" fill="#e0b894"/>
+    <path d="M155 350c0-40 14-60 35-60s35 20 35 60z" fill="#e8c24a"/>
+  </g>
+  <!-- rollo gasa -->
+  <circle cx="300" cy="400" r="26" fill="#f6f1ea" stroke="#14213d" stroke-width="4"/>
+  <circle cx="300" cy="400" r="10" fill="#d4e6dc" stroke="#14213d" stroke-width="3"/>
+  <path d="M326 400h120" stroke="#f6f1ea" stroke-width="16" stroke-linecap="round"/>
+  <path d="M326 394h120M326 406h120" stroke="#d9cfc2" stroke-width="2"/>
+</svg>

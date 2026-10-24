@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <rect width="600" height="450" fill="#fdf3dc"/>
+  <!-- plano -->
+  <rect x="60" y="50" width="480" height="350" rx="10" fill="#fff" stroke="#14213d" stroke-width="6"/>
+  <path d="M60 220h200M340 220h200M300 50v110M300 250v150M180 220v-0" stroke="#14213d" stroke-width="6" fill="none"/>
+  <path d="M60 140h120M420 140h120M180 300h120M420 300h120" stroke="#14213d" stroke-width="6" fill="none"/>
+  <!-- puerta salida -->
+  <rect x="268" y="392" width="64" height="16" fill="#fdf3dc"/>
+  <rect x="268" y="400" width="64" height="30" rx="6" fill="#2f9e5b"/>
+  <text x="300" y="421" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="16" fill="#fff">SALIDA</text>
+  <!-- ruta -->
+  <path d="M120 100 L120 190 L300 190 L300 360 L300 396" fill="none" stroke="#2f9e5b" stroke-width="9" stroke-dasharray="4 14" stroke-linecap="round"/>
+  <path d="M480 100 L480 190 L300 190" fill="none" stroke="#2f9e5b" stroke-width="9" stroke-dasharray="4 14" stroke-linecap="round"/>
+  <path d="M300 360l-16-20h32z" fill="#2f9e5b"/>
+  <!-- punto de encuentro -->
+  <circle cx="450" cy="340" r="34" fill="#b3202a"/>
+  <circle cx="450" cy="340" r="14" fill="#fff"/>
+  <circle cx="450" cy="340" r="6" fill="#b3202a"/>
+  <!-- personas -->
+  <circle cx="120" cy="100" r="12" fill="#14213d"/>
+  <circle cx="480" cy="100" r="12" fill="#14213d"/>
+  <circle cx="200" cy="170" r="12" fill="#14213d"/>
+</svg>
