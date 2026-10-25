@@ -344,7 +344,7 @@
       return;
     }
     var body = "Nombre: " + f.nombre.value.trim() + "\nCorreo: " + f.correo.value.trim() + "\n\n" + f.mensaje.value.trim();
-    window.location.href = "mailto:puntovital@gmail.com?subject=" + encodeURIComponent("Consulta desde la tienda Pulso Vital") +
+    window.location.href = "mailto:redro0604@gmail.com?subject=" + encodeURIComponent("Consulta desde la tienda Pulso Vital") +
       "&body=" + encodeURIComponent(body);
     note.textContent = "Se abrirá tu aplicación de correo para enviar el mensaje.";
     f.reset();
